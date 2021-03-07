@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Starting Page-->
+    <main>
+      <section id="start">
+        <div class="page">
+        <h1>Mythological Creatures Quiz</h1>
+        <p>
+          Identify as many creatures by their descriptions as you can!
+        </p>
+        <div id="start-button">
+          <button id="js-start-button">Begin Quiz</button>
+        </div>
+        </div>
+      </section>
+
+  <!--Question Set-->
+      <section id="question set">
+        <div class="page">
+        <h1>Mythological Creatures Quiz</h1>
+        <form>
+          <h2>Questions here:</h2>
+            <input name="answer" type="radio" value="a">
+              <label for="creature">creature</label><br>
+            <input name="answer" type="radio" value="b">
+              <label for="creature">creature</label><br>
+            <input name="answer" type="radio" value="c">
+              <label for="creature">creature</label><br>
+            <input name="answer" type="radio" value="d">
+              <label for="creature">creature</label><br>
+            <button type="submit">Submit</button>
+            <button type="submit">Next</button>
+        </form>
+        <h3>On submit Feedback of Results here</h3>
+        <p>Question 1 of X <br>
+        Score: X</p>
+        </div>
+        </section>
+  <!--
+    <form>
+          <h2>This undead creature is known to be able to kill with just the sound of it's voice:</h2>
+          <input name="answer" type="radio" value="a">
+            <label for="wight">Wight</label><br>
+          <input name="answer" type="radio" value="b">
+            <label for="poltergeist">Poltergeist</label><br>
+          <input name="answer" type="radio" value="c">
+            <label for="wraith">Wraith</label><br>
+          <input name="answer" type="radio" value="d">
+            <label for="banshee">Banshee</label><br>
+            <button type="submit">Submit</button>
+            <button type="submit">Next</button>
+        </form>
+      
+    <form>
+          <h2>This multi-headed creature was known to be a guard to the underworld:</h2>
+          <input name="answer" type="radio" value="a">
+            <label for="cyclopes">Cyclopes</label><br>
+          <input name="answer" type="radio" value="b">
+            <label for="chimera">Chimera</label><br>
+          <input name="answer" type="radio" value="c">
+            <label for="cerberus">Cerberus</label><br>
+          <input name="answer" type="radio" value="d">
+            <label for="hydra">Hydra</label><br>
+            <button type="submit">Submit</button>
+            <button type="submit">Next</button>
+        </form>
+
+    <form>
+          <h2>Sea creature famous for devouring sailors after convincing them to willing abandon ship:</h2>
+          <input name="answer" type="radio" value="a">
+            <label for="merfolk">Merfolk</label><br>
+          <input name="answer" type="radio" value="b">
+            <label for="loch-ness">loch-ness Monster</label><br>
+          <input name="answer" type="radio" value="c">
+            <label for="kappa">Kappa</label><br>
+          <input name="answer" type="radio" value="d">
+            <label for="siren">Sirens</label><br>
+            <button type="submit">Submit</button>
+            <button type="submit">Next</button>
+        </form>
+
+    <form>
+          <h2>This creature is known for having "looks that can kill":</h2>
+          <input name="answer" type="radio" value="a">
+            <label for="harpie">Harpie</label><br>
+          <input name="answer" type="radio" value="b">
+            <label for="sylph">Sylph</label><br>
+          <input name="answer" type="radio" value="c">
+            <label for="medusa">Medusa</label><br>
+          <input name="answer" type="radio" value="d">
+            <label for="basilisk">Basilisk</label><br>
+            <button type="submit">Submit</button>
+            <button type="submit">Next</button>
+        </form>
+
+    <form>
+          <h2>This 4 legged shapeshifter is known to seduce young men with the intention of eating their hearts:</h2>
+          <input name="answer" type="radio" value="a">
+            <label for="lyncanthrope">Lycanthrope</label><br>
+          <input name="answer" type="radio" value="b">
+            <label for="vampire">Vampire</label><br>
+          <input name="answer" type="radio" value="c">
+            <label for="doppelganger">Doppelganger</label><br>
+          <input name="answer" type="radio" value="d">
+            <label for="kumiho">Kumiho</label><br>
+            <button type="submit">Submit</button>
+            <button type="submit">Next</button>
+        </form>-->
+
+  <!--End page-->
+    <section id="End Page">
+      <div class="page">
+      <h1>Mythological Creatures Quiz</h1>
+        <h2>Final Score: ${Get Correct Answers} out of 5!</h2>
+        <button id="js-reset">Try Again?</button>
+      </div>
+    </section>
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
